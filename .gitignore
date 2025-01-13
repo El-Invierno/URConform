@@ -1,0 +1,45 @@
+# Ignore Python cache files and folders
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env
+*.venv
+
+# Ignore LaTeX build files and output
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Ignore the output directory for generated TeX files
+output_tex/
+
+# Ignore specific files inside the data folder
+data/final_resume*
+data/initial_resume*
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore dependency management files (optional)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*.swo
+*.tmp
