@@ -1,7 +1,9 @@
 import asyncio
 from llama_parse import LlamaParse
 from llama_index.core import SimpleDirectoryReader
+from dotenv import load_dotenv
 
+load_dotenv()
 parser = LlamaParse(result_type="text")
 file_extractor = {'.pdf': parser, '.docx': parser}
 
